@@ -1,0 +1,220 @@
+.exhibit {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 687.9%;
+    bottom: -687.9%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 15px 6px rgba(0, 0, 0, 0.15);
+    transform: rotate(-90deg);
+}
+
+.science {
+    position: absolute;
+    width: 544px;
+    height: 460px;
+    left: 206px;
+    top: 52px;
+
+    background: linear-gradient(178.81deg, #40FF00 -0.99%, #17D613 98.98%);
+    border-radius: 30px;
+}
+
+.navigation {
+    position: absolute;
+    width: 543px;
+    height: 460px;
+    left: 792px;
+    top: 52px;
+
+    background: linear-gradient(180deg, #00FFFF 0%, #00D9EA 80.13%, #00B6D6 100%);
+    border-radius: 30px;
+}
+
+.video {
+    position: absolute;
+    width: 486px;
+    height: 975px;
+    left: 1378px;
+    top: 52px;
+
+    background: linear-gradient(180deg, #D99AFF 75.97%, #C05AFF 100%);
+    border-radius: 30px;
+}
+
+.communication {
+    position: absolute;
+    width: 544px;
+    height: 469px;
+    left: 206px;
+    top: 558px;
+
+    background: linear-gradient(180deg, #FFCC00 0%, #FFA500 100%);
+    border-radius: 30px;
+}
+
+.centralCore {
+    position: absolute;
+    width: 543px;
+    height: 469px;
+    left: 792px;
+    top: 558px;
+
+    background: linear-gradient(180deg, #EF5965 0%, #E64B54 92.63%, #D32F33 100%);
+    border-radius: 30px;
+}
+
+.science .bg {
+    position: absolute;
+    left: 24px;
+    top: 54px;
+}
+
+.communication .bg {
+    position: absolute;
+    left: 24px;
+    top: 28px;
+}
+
+.navigation .bg {
+    position: absolute;
+    left: 16px;
+    top: 41px;
+}
+
+.centralCore .bg {
+    position: absolute;
+    left: 36px;
+    top: 25px;
+}
+
+.video .bg {
+    position: absolute;
+    left: 138px;
+    top: 201px;
+}
+
+.science .hd {
+    position: absolute;
+    width: 218px;
+    height: 105px;
+    left: 158px;
+    top: 136px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 69px;
+    line-height: 81px;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.txt {
+    position: absolute;
+    width: 332px;
+    height: 130px;
+    left: 104px;
+    top: 236px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.navigation .hd {
+    position: absolute;
+    width: 218px;
+    height: 105px;
+    left: 111px;
+    top: 136px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 69px;
+    line-height: 81px;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.communication .hd {
+    position: absolute;
+    width: 218px;
+    height: 105px;
+    left: 39px;
+    top: 136px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 69px;
+    line-height: 81px;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.centralCore .hd {
+    position: absolute;
+    width: 413px;
+    height: 105px;
+    left: 65px;
+    top: 136px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 69px;
+    line-height: 81px;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.video .hd {
+    position: absolute;
+    width: 218px;
+    height: 105px;
+    left: 134px;
+    top: 440px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 69px;
+    line-height: 81px;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.video .txt {
+    position: absolute;
+    width: 332px;
+    height: 130px;
+    left: 80px;
+    top: 539px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #000000;
+}
