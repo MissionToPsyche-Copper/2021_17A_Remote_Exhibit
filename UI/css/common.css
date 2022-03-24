@@ -1,7 +1,8 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 .header {
     width: 1920px;
     height: 179px;
@@ -16,7 +17,7 @@
 
 .header .text {
     position: absolute;
-    width: 1240px;
+    width: 1300px;
     height: 106px;
     left: 340px;
     top: 44px;
