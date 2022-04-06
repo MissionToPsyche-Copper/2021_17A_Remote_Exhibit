@@ -35,14 +35,14 @@ else if (mysqli_connect_errno($link))
 $file=fopen('./clickOnButton_log.csv','w');
 $sql = "select * from data_save";
 $download=$link->query($sql);
-fwrite($file,"Button\t\t\t   Date\n");
+fwrite($file,"Button,,,Date\n");
     while($row=mysqli_fetch_array($download)){
-        fwrite($file, $row['button']."\t\t\t".$row['date']."\n");
+        fwrite($file, $row['button'].",,,".$row['date']."\n");
     }
     fclose($file);
 
 $file=fopen('./statistical_summary.csv','w');
-fwrite($file,"Button Name\t\t\tClicks\n");
+fwrite($file,"Button Name,,,Clicks\n");
 
 
     $science_data = "SELECT * FROM `data_save` WHERE `button` LIKE 'Science' ORDER BY `button` DESC";
@@ -180,28 +180,28 @@ fwrite($file,"Button Name\t\t\tClicks\n");
 
 
 
-fwrite($file, "Science\t\t\t\t".$science."\n");
-fwrite($file, "Magnetometer\t\t\t".$magnetometer."\n");
-fwrite($file, "Gamma\t\t\t\t".$gamma."\n");
-fwrite($file, "Low Gain Antenna\t\t".$low_gain_antenna."\n");
-fwrite($file, "Multispectral\t\t\t".$multispectral."\n");
-fwrite($file, "Navigation\t\t\t".$navigation."\n");
-fwrite($file, "Cold Gas Thrusters\t\t".$cold_gas_thrusters."\n");
-fwrite($file, "Star Trackers\t\t\t".$star_trackers."\n");
-fwrite($file, "Sun Sensors\t\t\t".$sun_sensors."\n");
-fwrite($file, "SP Thruster\t\t\t".$sp_thruster."\n");
-fwrite($file, "Video\t\t\t\t".$video."\n");
-fwrite($file, "Communication\t\t\t".$communication."\n");
-fwrite($file, "X-band\t\t\t\t".$xband."\n");
-fwrite($file, "DSOC\t\t\t\t".$dsoc."\n");
-fwrite($file, "Spacecraft\t\t\t".$spacecraft."\n");
-fwrite($file, "Central Core\t\t\t".$central_core."\n");
-fwrite($file, "Dimensions\t\t\t".$dimensions."\n");
-fwrite($file, "Fun Facts\t\t\t".$fun_facts."\n");
-fwrite($file, "Materials\t\t\t".$materials."\n");
-fwrite($file, "3D Model\t\t\t".$threeDimensional_model."\n");
-fwrite($file, "Astroid\t\t\t\t".$astroid."\n");
-fwrite($file, "Spacecraft Model\t\t".$spacecraft_model."\n");
+fwrite($file, "Science,,,".$science."\n");
+fwrite($file, "Magnetometer,,,".$magnetometer."\n");
+fwrite($file, "Gamma,,,".$gamma."\n");
+fwrite($file, "Low Gain Antenna,,,".$low_gain_antenna."\n");
+fwrite($file, "Multispectral,,,".$multispectral."\n");
+fwrite($file, "Navigation,,,".$navigation."\n");
+fwrite($file, "Cold Gas Thrusters,,,".$cold_gas_thrusters."\n");
+fwrite($file, "Star Trackers,,,".$star_trackers."\n");
+fwrite($file, "Sun Sensors,,,".$sun_sensors."\n");
+fwrite($file, "SP Thruster,,,".$sp_thruster."\n");
+fwrite($file, "Video,,,".$video."\n");
+fwrite($file, "Communication,,,".$communication."\n");
+fwrite($file, "X-band,,,".$xband."\n");
+fwrite($file, "DSOC,,,".$dsoc."\n");
+fwrite($file, "Spacecraft,,,".$spacecraft."\n");
+fwrite($file, "Central Core,,,".$central_core."\n");
+fwrite($file, "Dimensions,,,".$dimensions."\n");
+fwrite($file, "Fun Facts,,,".$fun_facts."\n");
+fwrite($file, "Materials,,,".$materials."\n");
+fwrite($file, "3D Model,,,".$threeDimensional_model."\n");
+fwrite($file, "Astroid,,,,".$astroid."\n");
+fwrite($file, "Spacecraft Model,,,".$spacecraft_model."\n");
 
 
 
