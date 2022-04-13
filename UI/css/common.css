@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.header {
+    width: 2560px;
+    height: 179px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 15px 6px rgba(0, 0, 0, 0.15);
+}
+
+.header .logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 56px;
+    top: 40px;
+}
+
+.header .text {
+    position: absolute;
+    width: 2055px;
+    height: 106px;
+    left: 252px;
+    top: 50px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 69px;
+    line-height: 81px;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.header .home {
+    position: absolute;
+    width: 103px;
+    height: 103px;
+    right: 56px;
+    top: 38px;
+}

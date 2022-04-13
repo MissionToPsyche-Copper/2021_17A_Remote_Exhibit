@@ -1,0 +1,28 @@
+img {
+    position: absolute;
+    width: 1009px;
+    height: 815px;
+    left: 461px;
+    top: 299px;
+}
+
+p {
+    position: absolute;
+    width: 591px;
+    height: 815px;
+    left: 1509px;
+    top: 299px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 39px;
+
+    /* or 195% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+
+    color: #000000;
+}
