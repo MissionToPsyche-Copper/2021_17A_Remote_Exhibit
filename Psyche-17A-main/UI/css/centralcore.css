@@ -1,0 +1,30 @@
+
+img {
+    position: absolute;
+    width: 1257px;
+    height: 843px;
+    left: 361px;
+    top: 299px;
+}
+
+.text1 {
+    position: absolute;
+    width: 441px;
+    height: 629px;
+    left: 1716px;
+    top: 340px;
+    /* P */
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 39px;
+    /* or 195% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+
+    color: #000000;
+}

@@ -1,0 +1,45 @@
+.img1 {
+    height: 688px;
+    position: absolute;
+    width: 1009px;
+    left: 41px;
+    top: 346px;
+}
+
+.img2 {
+    position: absolute;
+    width: 798px;
+    height: 688px;
+    left: 1092px;
+    top: 346px;
+}
+
+.img3 {
+    position: absolute;
+    width: 589px;
+    height: 396px;
+    left: 1931px;
+    top: 346px;
+}
+
+.text1 {
+    position: absolute;
+    width: 586px;
+    height: 292px;
+    left: 1933px;
+    top: 774px;
+
+    /* P */
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 39px;
+
+    /* or 195% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+
+    color: #000000;
+}

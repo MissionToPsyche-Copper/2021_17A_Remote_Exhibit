@@ -1,0 +1,31 @@
+.picture1 {
+    position: absolute;
+    width: 1427px;
+    height: 882px;
+    left: 462px;
+    top: 279px;
+}
+
+
+.text1 {
+    position: absolute;
+    width: 380px;
+    height: 882px;
+    left: 1930px;
+    top: 279px;
+
+    /* P */
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 39px;
+    /* or 195% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+
+    color: #000000;
+}
